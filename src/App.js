@@ -48,7 +48,6 @@ function App() {
       <form onSubmit={handleSubmit}>
         <h1>Login</h1>
         <div className="Form">
-          <p>{formErrors.username}</p>
           <div className="field">
             <label>Email</label>
             <input className="form-control" type="text" name="email" placeholder="Email" value={formValues.email} onChange={handleChange}/>
