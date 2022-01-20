@@ -32,7 +32,7 @@ function App() {
     }
     if (!values.password) {
       errors.password = "Please enter your password!";
-    } else if (values.password.length < 4) {
+    } else if (values.password.length < 6) {
       errors.password = "Password must be more than 6 characters";
     }
     return errors;
